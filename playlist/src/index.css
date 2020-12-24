@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  width: 75%;
+  margin: 0 auto;
+}
+.mainheader{
+  text-align: center;
+  background-color: #70af85;
+  color: white;
+  padding: 30px;
+}
+.main-nav{
+  display: flex;
+  align-items: center;
+  padding: 5px; 
+}
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+  width: 100%;
+  list-style-type: none;
+}
+.nav-links > * {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-links > * :hover {
+  text-decoration: underline;
+}
+.songform{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.songform > *{
+  padding: 7px;
+  width: 100%;
+  margin: 0px 20px;
+}
+.song-row__item{
+  padding: 5px;
+}
+.song-row:nth-child(even){
+  background-color: #c6ebc9a6;
+}
+.song-row:nth-child(odd){
+  background-color:#c6ebc9;
+}
+.trash{
+  text-align: center;
+  width: 3%;
+}
+.options-menu{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.options-menu > *{
+  padding: 7px;
+  margin: 0px 20px;
+}
+.optionsline{
+  border-top: 1px solid #aa8976;
+  margin: 0 auto;
+  width: 92%;
+}
+.bottom {
+  margin-bottom: 20px;
+}
+table{
+  width: 100%;
+}
+.aboutme{
+  margin-top: 30px;
+  text-align: center;
+}
